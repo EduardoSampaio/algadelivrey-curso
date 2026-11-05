@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Delivery-Tracking
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/deliverydb_test
+    username: postgres
+    password: postgres
+
